@@ -1,4 +1,4 @@
-package ar.edu.utn.clientes.controller;
+package ar.edu.utn.clientes.api.controller;
 
 import ar.edu.utn.clientes.api.dto.ClienteDto;
 import ar.edu.utn.clientes.api.service.ClienteService;
@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/clientes")
